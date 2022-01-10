@@ -1,0 +1,506 @@
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+         url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'), 
+         url('../fonts/fraunces-v10-latin-regular.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    src: 
+         url('../fonts/fraunces-v10-latin-700.woff2') format('woff2'), 
+         url('../fonts/fraunces-v10-latin-700.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: 
+         url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), 
+         url('../fonts/fraunces-v10-latin-900.woff') format('woff'); 
+  }
+
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+         url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'), 
+         url('../fonts/barlow-v5-latin-regular.woff') format('woff'); 
+  }
+ 
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: 
+         url('../fonts/barlow-v5-latin-700.woff2') format('woff2'), 
+         url('../fonts/barlow-v5-latin-700.woff') format('woff');
+  }  
+
+
+  *{
+      box-sizing: border-box;
+  }
+
+  *img{
+      vertical-align: middle;
+  }
+
+  body{
+      margin: 0;
+      padding: 0;
+  }
+
+  .container{
+      width: 1320px;
+      padding-right: 20px;
+      padding-left: 20px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  .header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0;
+      padding-top: 44px; 
+      padding-bottom: 45px;
+  } 
+
+  .site-logo__link{
+      text-decoration: none;
+  }
+
+  .site-logo__link:hover{
+      opacity: 0.8;
+  }
+
+  .header__img{
+      width: 236px;
+      height: 26px;
+      margin: 0;
+      padding: 0;
+  }
+
+  .header__list{
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+  }
+
+  .header__item{
+      margin-left: 33px;
+      padding: 0;
+  }
+
+  .header-item__link{
+      text-decoration: none;
+      font-family: "Barlow", sans-serif;
+      font-weight: 700;
+      color: #83888F;
+      font-size: 12px;
+  }
+
+  .header-item__link:hover{
+      color: #333D4B;
+  }
+
+  .Coffe{
+      background-image: url(../images/background-img.jpg);
+      width: 1280px;
+      height: 600px; 
+      margin-bottom: 100px;
+  }
+
+  .great-coffe{
+      width: 493px;
+      padding-top: 120px;
+      margin-left: 86px;
+  }
+
+  .great-coffe__title{
+      font-family:"Fraunces", serif ;
+      font-weight: 900;
+      font-size: 72px;
+      color: #FEFCF7;
+      margin: 0;
+      padding: 0;
+  }
+
+  .great-coffe__text{
+      font-family: "Barlow", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #FEFCF7;
+      margin-top: 32px;
+      margin-bottom: 56px;
+  }
+
+  .great-coffe__link{
+      text-decoration: none;
+      width: 217px;
+      height: 56px;
+      background-color: #0E8784;
+      color: #FEFCF7;
+      font-family:"Fraunces", serif ;
+      font-weight: 900;
+      font-size: 18px;
+      align-items: center;
+      padding: 15px 31px;
+      border-radius: 6px;
+  }
+
+  .great-coffe__link:hover{
+      background-color: #66D2CF;
+  }
+
+  .our-collection{
+      background-image: url(../images/our-collection.svg);
+      width: 1111px;
+      height: 196px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 126px;
+  }
+
+  .our-collection__list{
+      list-style: none;
+      display: flex; 
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+  }
+
+  .our-collection__item{
+      width: 255px;
+      padding: 0;
+      margin-right: 30px;
+  }
+
+  .our-collection__img{
+      width: 255px;
+      height: 193px;
+      margin-bottom: 72px;
+      padding: 0;
+  }
+
+  .our-collection__title{
+      font-family:"Fraunces", serif;
+      font-weight: 900;
+      font-size: 24px;
+      color: #333D4B;
+      text-align: center;
+      margin: 0 auto;
+      padding: 0;
+  }
+
+  .our-collection__text{
+      font-family: "Barlow", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #333D4B;
+      margin-top: 24px;
+      padding: 0; 
+      text-align: center;
+  }
+
+  .advantage{
+      background-image: url(../images/advantage-bg.png);
+      width: 1280px;
+      height: 577px;
+      margin-top: 450px;
+      padding-top: 112px;
+  }
+
+  .advantage-about{
+      width: 540px;
+      margin: 0;
+      padding: 0;
+      margin-right: auto;
+      margin-left: auto; 
+      margin-bottom: 86px;
+  }
+
+  .advantage__title{
+      font-family: "Fraunces", serif;
+      text-align: center;
+      font-weight: 900;
+      font-size: 40px;
+      color: #FEFCF7;
+  }
+
+  .advantage__text{
+      font-family: "Barlow", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #FEFCF7;
+  } 
+
+  .advantage__list{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+  }
+
+  .advantage__item{
+      width: 350px;
+      height: 382px;
+      background-color: #0E8784;
+      border-radius: 8px;
+      padding: 0; 
+      margin-bottom: 200px;
+  }
+
+  .advantage__item:nth-child(2){
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+
+  .advantage-item__img{
+      width: 71px;
+      height: 72px;
+      margin-top: 72px;
+      margin-left: 136px;
+      margin-bottom: 56px;
+  }
+
+  .advantage-list-about{
+      width: 255px;
+      margin: 0;
+      padding: 0;
+      margin-right: auto;
+      margin-left: auto; 
+  }
+
+  .advantage__title{
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #FEFCF7; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .advantage-item__text{
+      font-family: "Barlow", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #FEFCF7;
+      text-align: center;
+      margin-top: 24px;
+  } 
+
+  .how-works{
+      width: 1110px;
+      margin-top: 351px;
+      padding: 0;
+      margin-right: auto;
+      margin-left: auto;
+      justify-content: space-between;
+  }
+
+  .how-works__title{
+      font-family: "Fraunces", serif;
+      font-weight: 900;
+      font-size: 24px;
+      color: #83888F;
+      margin: 0;
+      padding: 0;
+  }
+
+  .oval-images{
+    margin-top: 95px;
+    margin-bottom: 82px;
+    width: 737px;
+    height: 1px;
+    border: 2px solid #fdd6ba;
+    position: relative;
+  }
+
+  .how-works__span{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -5px;
+    width: 31px;
+    height: 31px;
+    background-color: #fefcf7;
+    border: 2px solid #0e8784;
+    border-radius: 50%;
+  }
+
+  .how-works__span2{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 349px;
+    width: 31px;
+    height: 31px;
+    background-color: #fefcf7;
+    border: 2px solid #0e8784;
+    border-radius: 50%;
+  }
+
+  .how-works__span3{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 729px;
+    width: 31px;
+    height: 31px;
+    background-color: #fefcf7;
+    border: 2px solid #0e8784;
+    border-radius: 50%;
+  }
+
+  .how-works__list{
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+  }
+
+  .how-works__item{
+      width: 255px;
+      margin-bottom: 64px;
+      padding: 0;
+  }
+
+  .how-works__item:nth-child(2){
+      margin-right: 95px;
+      margin-left: 95px;
+      padding: 0;
+  }
+
+  .works__img{
+      width: 90px;
+      height: 72px;
+      margin: 0;
+      padding: 0;
+  }
+
+  .works__title{
+      font-family: "Fraunces", serif;
+      font-weight: 900;
+      font-size: 32px;
+      color: #333D4B;
+      margin-top: 38px;
+      margin-bottom: 42px;
+      padding: 0;
+  }
+
+  .works__text{
+      font-family: "Barlow", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #333D4B;
+      margin: 0;
+      padding: 0;
+  }
+
+  .how-works__link{
+      text-decoration: none;
+      width: 217px;
+      height: 56px;
+      padding: 15px 31px;
+      border-radius: 6px;
+      background-color: #0E8784;
+      align-items: center;
+      font-family: "Fraunces", serif;
+      font-weight: 900;
+      font-size: 18px;
+      color: #FEFCF7;
+  }
+
+  .how-works__link:hover{
+    background-color: #66D2CF;
+  }
+
+  footer{
+      background-color: #2C343E;
+      margin-top: 200px;
+      padding: 0;
+  }
+
+  .footer-elements{
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding-top: 47px;
+      padding-bottom: 47px;
+      padding-left: 85px;
+  }
+
+  .footer__img{
+      width: 236px;
+      height: 26px;
+      margin: 0;
+      padding: 0;
+  }
+
+  .footer__list{
+      list-style: none;
+      display: flex;
+      margin-left: 103px;
+      padding: 0;
+  }
+
+  .footer__item{
+      margin: 0;
+      padding: 0;
+  }
+
+  .footer__item:nth-child(2){
+      margin-left: 33px;
+      margin-right: 32px;
+  }
+
+  .footer-item__link{
+      text-decoration: none;
+      font-family: "Barlow", sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      color: #83888F;
+  }
+
+  .footer-item__link:hover{
+      color: #FEFCF7;
+  }
+
+  .footer-logo__list{
+      list-style: none;
+      display: flex;
+      margin-left: 369px;
+      padding: 0;
+  }
+
+  .footer-logo__item{
+      margin: 0;
+      padding: 0;
+  }
+
+  .footer-logo__item:nth-child(2){
+      margin-left: 34px;
+      margin-right: 34px;
+  }
+
+  .footer-logo__link{
+      text-decoration: none;
+  } 
+
+  .footer-logo__link:hover{
+      opacity: 0.6;
+  }
+
+  .footer-logo__img{
+      width: 24px;
+      height: 20px;
+  }
